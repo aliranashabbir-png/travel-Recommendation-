@@ -1,0 +1,27 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-section {
+  background: url('https://images.unsplash.com/photo-1486308510493-aa64833634ef') no-repeat center center/cover;
+  height: 90vh;
+  position: relative;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-section .content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+}
+
+.search-bar {
+  max-width: 400px;
+  margin: 0 auto;
+}
